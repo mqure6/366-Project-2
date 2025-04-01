@@ -1,3 +1,3 @@
-# See Psueodocode in Doc or Fibonacci Function in Project.c
+# See Psueodocode in Doc or "fib" Function in 366Project2.c
 
     .text
