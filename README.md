@@ -3,9 +3,9 @@
 Group Members: Alex Zelewski (azale2), Moiz Qureshi (mqure6)
 
 Contribution: 
-- Alex: <Insert something>
-- Moiz: <Names are weird...>
-
+- Alex: Refined and troubleshooted base implementation of Fiboncaci sequence function
+- Moiz: Created repository, used pseudocode provided to make a reference .c file, created based code of Fiboncaci sequence function (1A).
+  
 Repository Link: https://github.com/mqure6/366-Project-2.git
 
 How to Run:
