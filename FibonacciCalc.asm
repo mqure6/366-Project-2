@@ -27,6 +27,3 @@
 	end:
     la $t3, result    # Load address of result
     sw $t1, 0($t3)    # Store Fibonacci result in memory
-
-    li $v0, 10        # Exit syscall
-    syscall
