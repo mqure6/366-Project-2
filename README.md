@@ -9,4 +9,4 @@ Contribution:
 Repository Link: https://github.com/mqure6/366-Project-2.git
 
 How to Run:
-<What is this even asking? Like how to run the file itself or running it within the sim. They do explicitly mention how to give the function an input...>
+- The current implementation simply uses an immediate value for the "n'th" sequence number to calculate (see line 5 of FibonacciCalc.asm). This immediate value can be adjusted to different integer values, then assembled and run within the MARS simulator.
