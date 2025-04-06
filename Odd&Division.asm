@@ -17,22 +17,23 @@ divEnd:
 	b divReturn
 	
 odd:	
-	li $t0, 7	# Placeholder, replace this with getting the value from FibonacciCalc
+	li $t0, 6	# Placeholder, replace this with getting the value from FibonacciCalc
 	li $t1, 0	# t1 = remainder
 	
 	b division	# Go do division
 	
 returnFalse:
 	li $v0, 0	# Return "fibNum is even"
-	# NOTE: This causes an infinite loop as line 27 keeps bringing us back here
-	# In the final implementation there will be somewhere for us to branch off from here
-	# The calculation is still done correctly, but it needs to be manually stopped...
+	b end
 	
 divReturn:
 	beq $t1, 0, returnFalse	# If remainder = 0, fibNum is even
 	
 	li $v0, 1	# Return "fibNum is odd"
 
+end:	
+	nop	# NOTE: This is only here to prevent an infinite loop for even values
+		# Otherwise we'd jump between lines 30 and 26 forever
 	
 	
 	
