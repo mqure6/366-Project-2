@@ -1,6 +1,6 @@
 # Final Implmentation of IsFibonacciOdd(n)
 
-	li $s0, 7	# Insert "n" to s0; supposedly n is in memory "somewhere", 5 is a placeholder
+	li $s0, 7	# Insert "n" to s0; supposedly n is in memory "somewhere", the immediate is a bit "placeholder"
 
 FibStart:
 	li $s1, 0	# s1 will be used as a counter during the for loop needed for the Fib sequence
