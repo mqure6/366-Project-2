@@ -24,11 +24,12 @@ FibStart:
 	baseEnd:
 		addi $t1, $s0, 0	# End function based on base condition, returns s0
 
-	endFib:
-		nop
+	endFib: 
+		sw $t1, 268500992	# Banish FibNum to the depths of RAM
 	# At this point both t0 and t1 hold the correct value
 	# t1 will be changed during the remainder calculation
-	# t0 will still have the calculated value, store t0 "somewhere"
+	# The SIM shows the exact data addresses during program execution
+	# 268500992 was the first address I saw, so we store FibNum there - Moiz
 
 
 oddStart:
